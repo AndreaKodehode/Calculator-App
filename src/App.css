@@ -1,11 +1,9 @@
-
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
 
 .calculator {
   border: 2px solid #ccc;
@@ -15,7 +13,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
 }
-
 
 .calculator input[type="text"] {
   width: 100%;
@@ -27,7 +24,6 @@
   border-radius: 5px;
   margin-bottom: 10px;
 }
-
 
 .calculator .input-buttons {
   display: grid;
@@ -50,6 +46,14 @@
   background-color: #e0e0e0;
 }
 
+#Deletebtn {
+  color: #fff;
+  background-color: blue;
+}
+
+#Deletebtn:hover {
+  background-color: lightblue;
+}
 
 .calculator div:last-child {
   display: grid;
@@ -61,7 +65,7 @@
   width: 100%;
   height: 40px;
   font-size: 18px;
-  background-color: #ffa500;
+  background-color: red;
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -69,5 +73,13 @@
 }
 
 .calculator div:last-child input[type="button"]:hover {
-  background-color: #ff8c00;
+  background-color: lightcoral;
+}
+
+#Reset {
+  background-color: blue;
+}
+
+#Reset:hover {
+  background-color: lightblue;
 }

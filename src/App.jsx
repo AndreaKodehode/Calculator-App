@@ -28,6 +28,7 @@ export default function App() {
               onClick={(e) => setValue(value + e.target.value)}
             />
             <input
+              id="Deletebtn"
               type="button"
               value="DEL"
               onClick={(e) => setValue(value.slice(0, -1))}
@@ -94,7 +95,12 @@ export default function App() {
             />
           </div>
           <div>
-            <input type="button" value="Reset" onClick={(e) => setValue("")} />
+            <input
+              id="Reset"
+              type="button"
+              value="Reset"
+              onClick={(e) => setValue("")}
+            />
             <input
               type="button"
               value="="
