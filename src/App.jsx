@@ -90,7 +90,7 @@ export default function App() {
             />
             <input
               type="button"
-              value="x"
+              value="*"
               onClick={(e) => setValue(value + e.target.value)}
             />
           </div>
