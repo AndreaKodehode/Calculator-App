@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://andreakodehode.github.io/calculator",
+  "homepage": "https://AndreaKodehode.github.io/calculator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
